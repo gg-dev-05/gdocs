@@ -31,7 +31,7 @@ export default function TextEditor() {
 	}, [socket, quill]);
 
 	useEffect(() => {
-		const s = io("http://localhost:5000");
+		const s = io("https://api-gdocs.herokuapp.com");
 		setSocket(s);
 
 		return () => {

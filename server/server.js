@@ -12,7 +12,7 @@ mongoose.connect(uri, {
 
 const io = require("socket.io")(5000, {
 	cors: {
-		origin: "http://localhost:3000",
+		origin: "https://doccs.netlify.app",
 		methods: ["GET", "POST"],
 	},
 });

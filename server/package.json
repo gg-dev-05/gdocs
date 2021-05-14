@@ -10,6 +10,8 @@
   "author": "gg-dev-05",
   "license": "ISC",
   "dependencies": {
+    "dotenv": "^9.0.2",
+    "mongoose": "^5.12.9",
     "socket.io": "^4.1.1"
   }
 }

@@ -10,7 +10,7 @@ mongoose.connect(uri, {
 	useFindAndModify: false,
 });
 
-const io = require("socket.io")(5000, {
+const io = require("socket.io")(process.env.PORT || 5000, {
 	cors: {
 		origin: "https://doccs.netlify.app",
 		methods: ["GET", "POST"],

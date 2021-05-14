@@ -1,0 +1,30 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #f3f3f3;
+	margin: 0;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.ql-toolbar {
+	position: fixed;
+	top: 0;
+	z-index: 10;
+}
+.ql-container {
+	background: white;
+	width: 8.5in;
+	height: 11in;
+	padding: 10em 5em;
+	box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.5);
+}
